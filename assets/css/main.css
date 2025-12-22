@@ -69,6 +69,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -534,7 +535,24 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 4em;
 				}
-
+		@media screen and (max-width: 400px ) {
+			.stream-button{
+			  background-color: #37a6cb;
+				padding: 10px;
+        
+				
+				height: 50px;
+				font-size: 10px;
+			}
+			.stream-button,img{
+				width: 40px;
+				margin: 0px;
+				height: auto;
+			}
+			.videotube{
+				width: 346px;
+			}
+		}
 		@media screen and (max-width: 1680px) {
 
 			.row {
