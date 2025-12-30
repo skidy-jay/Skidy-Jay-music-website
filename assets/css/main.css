@@ -544,7 +544,7 @@ input, select, textarea {
 				height: 50px;
 				font-size: 10px;
 			}
-			.stream-button,img{
+			.stream-button{
 				width: 40px;
 				margin: 0px;
 				height: auto;
